@@ -1,0 +1,52 @@
+.imageIcon {
+  height: 251px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.imageWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 2px;
+}
+.teacoffee {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 128px;
+}
+.categoryItems,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  gap: 14px;
+}
+.categoryItems {
+  flex: 0.987;
+  padding: 0 3px 0 0;
+  box-sizing: border-box;
+  min-width: 225px;
+  max-width: 230px;
+  text-align: left;
+  font-size: 24px;
+  color: #222;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .teacoffee {
+    font-size: 19px;
+  }
+  .categoryItems {
+    flex: 1;
+  }
+}

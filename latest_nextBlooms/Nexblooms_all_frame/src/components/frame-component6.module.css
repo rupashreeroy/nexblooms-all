@@ -1,0 +1,234 @@
+.topSpiceProducts1,
+.viewAll {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.topSpiceProducts1 {
+  margin: 0;
+  height: 10.5px;
+  width: 301px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.viewAll {
+  height: 7.9px;
+  min-width: 88px;
+}
+.topSpicesBtnIconChild {
+  width: 9px;
+  height: 5.5px;
+  position: relative;
+}
+.topSpicesBtnIcon,
+.topSpicesButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.topSpicesBtnIcon {
+  flex-direction: column;
+  padding: 1.2px 0 0;
+}
+.topSpicesButton {
+  flex-direction: row;
+  gap: 15px;
+  font-size: 22px;
+  color: #7e6613;
+}
+.topSpicesHeader,
+.topSpicesTitle {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.topSpicesTitle {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  min-height: 11px;
+  gap: 20px;
+}
+.topSpicesHeader {
+  width: 1242px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+.cuminImageIcon,
+.cuminImageIcon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-width: 197px;
+  min-height: 352px;
+}
+.cuminImageIcon1 {
+  min-width: 192px;
+}
+.cuminCorianderImage {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.cumin {
+  display: inline-block;
+  min-width: 96px;
+}
+.coriander,
+.cumin {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.corianderName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0 0;
+}
+.cuminName,
+.cuminTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cuminName {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.cuminTitle {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 78px 0 80px;
+  box-sizing: border-box;
+}
+.cuminCoriander,
+.spiceItems {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cuminCoriander {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px;
+  min-width: 409px;
+}
+.spiceItems {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+}
+.vectorArrowsIcon {
+  height: 54px;
+  width: 234px;
+  position: relative;
+}
+.vectorArrowsWrapper {
+  width: 1296px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.topSpiceItems {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 29px;
+  color: #000;
+}
+.topSpiceItems,
+.topSpiceProducts,
+.topSpiceProductsWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.topSpiceProducts {
+  width: 1309px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 83.1px;
+}
+.topSpiceProductsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 58px 186.8px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 30px;
+  color: #222;
+  font-family: Inter;
+}
+@media screen and (max-width: 800px) {
+  .topSpiceProducts1 {
+    font-size: 24px;
+  }
+  .cuminCorianderImage,
+  .topSpicesTitle {
+    flex-wrap: wrap;
+  }
+  .coriander,
+  .cumin {
+    font-size: 24px;
+  }
+  .cuminTitle {
+    padding-left: 40px;
+    padding-right: 39px;
+    box-sizing: border-box;
+  }
+  .cuminCoriander {
+    min-width: 100%;
+  }
+  .topSpiceProducts {
+    gap: 42px;
+  }
+  .topSpiceProductsWrapper {
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-bottom: 121px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .coriander,
+  .cumin,
+  .topSpiceProducts1,
+  .viewAll {
+    font-size: 18px;
+  }
+  .cuminName {
+    flex-wrap: wrap;
+  }
+  .topSpiceProducts {
+    gap: 21px;
+  }
+  .topSpiceProductsWrapper {
+    padding-bottom: 79px;
+    box-sizing: border-box;
+  }
+}

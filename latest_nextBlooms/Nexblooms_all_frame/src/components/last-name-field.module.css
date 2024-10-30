@@ -1,0 +1,52 @@
+.lastName {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+  z-index: 2;
+}
+.frameChild {
+  height: 50px;
+  width: 266px;
+  position: relative;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  display: none;
+}
+.enterLastName {
+  position: relative;
+  display: inline-block;
+  min-width: 111px;
+  z-index: 1;
+}
+.lastNameField,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  flex-direction: row;
+  padding: 14px 24px;
+  white-space: nowrap;
+  z-index: 2;
+  font-size: 15px;
+  color: #a9a9a9;
+}
+.lastNameField {
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 173px;
+  text-align: left;
+  font-size: 16px;
+  color: #222;
+  font-family: Inter;
+}

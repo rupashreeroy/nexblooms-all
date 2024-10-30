@@ -1,0 +1,766 @@
+.frameChild {
+  height: 11.7px;
+  width: 6px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4.6px;
+  right: -5px;
+  object-fit: contain;
+}
+.account,
+.orders1 {
+  position: relative;
+  display: inline-block;
+}
+.account {
+  text-decoration: none;
+  line-height: 21px;
+  color: inherit;
+  min-width: 40px;
+}
+.orders1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #374256;
+  min-width: 53px;
+}
+.accountParent,
+.lineParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.accountParent {
+  flex-direction: column;
+  gap: 33px;
+}
+.lineParent {
+  flex-direction: row;
+  position: relative;
+}
+.deliveredOrders,
+.myOrder1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.myOrder1 {
+  line-height: 21px;
+  min-width: 63px;
+}
+.deliveredOrders {
+  min-width: 129px;
+}
+.accountDivider,
+.deliveredOrdersContainer,
+.myOrder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.deliveredOrdersContainer {
+  flex-direction: row;
+  padding: 0 0 0 39px;
+  font-size: 16px;
+  color: #374256;
+}
+.accountDivider,
+.myOrder {
+  flex-direction: column;
+  gap: 33px;
+  color: #222;
+}
+.accountDivider {
+  flex-direction: row;
+  gap: 17px;
+  font-size: 14px;
+  color: #727272;
+}
+.returnOrders {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 108px;
+}
+.actionButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 54px 0 0;
+}
+.cancelOrders {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 110px;
+}
+.accountButtons,
+.actionButtons1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actionButtons1 {
+  flex-direction: column;
+  padding: 54px 0 0;
+}
+.accountButtons {
+  flex-direction: row;
+  gap: 56px;
+  max-width: 100%;
+}
+.screenshotDividerChild {
+  height: 1px;
+  width: 1241px;
+  position: relative;
+  border-top: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.screenshotDividerItem {
+  height: 3px;
+  width: 143px;
+  position: relative;
+  border-top: 3px solid #374256;
+  box-sizing: border-box;
+  margin-left: -1137px;
+}
+.accountActions,
+.screenshotDivider {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.accountActions {
+  flex-direction: column;
+  padding: 0 0 13px;
+  box-sizing: border-box;
+  gap: 9px;
+  font-size: 16px;
+  color: #374256;
+}
+.frameItem {
+  height: 238px;
+  width: 1240px;
+  position: relative;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  display: none;
+  max-width: 100%;
+}
+.orderHeaderNamesChild {
+  height: 166px;
+  width: 161px;
+  position: relative;
+  border-radius: 10px;
+  object-fit: cover;
+  min-height: 166px;
+  z-index: 1;
+}
+.milk,
+.qty1 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.milk {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: inherit;
+  min-width: 60px;
+}
+.qty1 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #727272;
+  min-width: 49px;
+}
+.orderValueContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.emptyValue {
+  position: relative;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 91px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.orderValueContainerParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.orderId12529085267689043 {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-weight: 500;
+  color: #727272;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.orderHeaderNames,
+.orderHeaderValues {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.orderHeaderValues {
+  flex: 1;
+  flex-direction: column;
+  gap: 34px;
+  min-width: 218px;
+}
+.orderHeaderNames {
+  width: 537px;
+  flex-direction: row;
+  gap: 40px;
+}
+.deliveryDate,
+.sep24 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 127px;
+  z-index: 1;
+}
+.sep24 {
+  font-weight: 600;
+  min-width: 98px;
+}
+.deliveryDateContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.frameInner {
+  height: 45px;
+  width: 209px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #7e6613;
+  box-sizing: border-box;
+  display: none;
+}
+.viewOrderDetails {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.dateOrderDetails,
+.rectangleGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  border-radius: 8px;
+  border: 1px solid #7e6613;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px 32px;
+  white-space: nowrap;
+  z-index: 1;
+  font-size: 16px;
+  color: #7e6613;
+}
+.dateOrderDetails {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 97px;
+  font-size: 20px;
+}
+.rectangleDiv,
+.rectangleParent {
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 36px 50px 36px 31px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.rectangleDiv {
+  height: 238px;
+  width: 1240px;
+  position: relative;
+  display: none;
+}
+.frameIcon,
+.milk1,
+.qty11 {
+  position: relative;
+  z-index: 1;
+}
+.frameIcon {
+  height: 166px;
+  width: 161px;
+  border-radius: 10px;
+  object-fit: cover;
+  min-height: 166px;
+}
+.milk1,
+.qty11 {
+  display: inline-block;
+}
+.milk1 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: inherit;
+  min-width: 60px;
+}
+.qty11 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #727272;
+  min-width: 49px;
+}
+.milkParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.div {
+  position: relative;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 91px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.orderId125290852676890431 {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-weight: 500;
+  color: #727272;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: 34px;
+  min-width: 218px;
+}
+.frameParent {
+  width: 537px;
+  flex-direction: row;
+  gap: 40px;
+}
+.deliveryDate1,
+.sep241 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 127px;
+  z-index: 1;
+}
+.sep241 {
+  font-weight: 600;
+  min-width: 98px;
+}
+.deliveryDateParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.frameChild1 {
+  height: 45px;
+  width: 209px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #7e6613;
+  box-sizing: border-box;
+  display: none;
+}
+.viewOrderDetails1 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.frameDiv,
+.groupDiv {
+  display: flex;
+  justify-content: flex-start;
+}
+.groupDiv {
+  border-radius: 8px;
+  border: 1px solid #7e6613;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px 32px;
+  white-space: nowrap;
+  z-index: 1;
+  font-size: 16px;
+  color: #7e6613;
+}
+.frameDiv {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 97px;
+  font-size: 20px;
+}
+.frameChild2,
+.rectangleContainer {
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  max-width: 100%;
+}
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 36px 50px 36px 31px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.frameChild2 {
+  height: 238px;
+  width: 1240px;
+  position: relative;
+  display: none;
+}
+.groupIcon,
+.milk2,
+.qty12 {
+  position: relative;
+  z-index: 1;
+}
+.groupIcon {
+  height: 166px;
+  width: 161px;
+  object-fit: cover;
+  min-height: 166px;
+}
+.milk2,
+.qty12 {
+  display: inline-block;
+}
+.milk2 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: inherit;
+  min-width: 60px;
+}
+.qty12 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #727272;
+  min-width: 49px;
+}
+.milkGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.div1 {
+  position: relative;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 91px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameParent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.orderId125290852676890432 {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-weight: 500;
+  color: #727272;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.frameParent1,
+.frameParent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent2 {
+  flex: 1;
+  flex-direction: column;
+  gap: 34px;
+  min-width: 218px;
+}
+.frameParent1 {
+  width: 537px;
+  flex-direction: row;
+  gap: 40px;
+}
+.deliveryDate2,
+.sep242 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 127px;
+  z-index: 1;
+}
+.sep242 {
+  font-weight: 600;
+  min-width: 98px;
+}
+.deliveryDateGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.frameChild3 {
+  height: 45px;
+  width: 209px;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #7e6613;
+  box-sizing: border-box;
+  display: none;
+}
+.viewOrderDetails2 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.frameParent4,
+.rectangleParent2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleParent2 {
+  border-radius: 8px;
+  border: 1px solid #7e6613;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px 32px;
+  white-space: nowrap;
+  z-index: 1;
+  font-size: 16px;
+  color: #7e6613;
+}
+.frameParent4 {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 97px;
+  font-size: 20px;
+}
+.rectangleParent1 {
+  align-self: stretch;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 36px 50px 36px 31px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.orderHeaders,
+.orders,
+.rectangleParent1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.orderHeaders {
+  width: 1240px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.orders {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 72px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 28px;
+  color: #222;
+  font-family: Inter;
+}
+@media screen and (max-width: 1350px) {
+  .rectangleContainer,
+  .rectangleParent,
+  .rectangleParent1 {
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .rectangleContainer,
+  .rectangleParent,
+  .rectangleParent1 {
+    flex-wrap: wrap;
+  }
+  .orders {
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .accountButtons {
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+  .orderHeaderNamesChild {
+    flex: 1;
+  }
+  .orderHeaderNames {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .frameIcon {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .groupIcon {
+    flex: 1;
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .orders {
+    padding-bottom: 31px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .emptyValue,
+  .milk {
+    font-size: 22px;
+    line-height: 19px;
+  }
+  .emptyValue {
+    font-size: 18px;
+  }
+  .orderId12529085267689043 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .orderHeaderValues {
+    gap: 17px;
+  }
+  .deliveryDate,
+  .div,
+  .milk1,
+  .sep24 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .div,
+  .milk1 {
+    font-size: 22px;
+  }
+  .div {
+    font-size: 18px;
+  }
+  .orderId125290852676890431 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .frameGroup {
+    gap: 17px;
+  }
+  .deliveryDate1,
+  .div1,
+  .milk2,
+  .sep241 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .div1,
+  .milk2 {
+    font-size: 22px;
+  }
+  .div1 {
+    font-size: 18px;
+  }
+  .orderId125290852676890432 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .frameParent2 {
+    gap: 17px;
+  }
+  .deliveryDate2,
+  .sep242 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

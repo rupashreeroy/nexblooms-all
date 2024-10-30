@@ -1,0 +1,480 @@
+.accountDividerIcon {
+  height: 11.7px;
+  width: 6px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4.6px;
+  right: 49px;
+  object-fit: contain;
+}
+.account1,
+.login {
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+}
+.account1 {
+  text-decoration: none;
+  color: inherit;
+  min-width: 40px;
+}
+.login {
+  font-weight: 500;
+  color: #222;
+  min-width: 37px;
+}
+.accountLabels,
+.accountLogin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.accountLabels {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.accountLogin {
+  width: 107px;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameChild,
+.frameItem {
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  height: 524px;
+  width: 1240px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  display: none;
+}
+.frameItem {
+  width: 514.9px;
+  max-height: 100%;
+  z-index: 1;
+}
+.emailId,
+.login1 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.login1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  min-width: 82px;
+}
+.emailId {
+  font-size: 16px;
+  font-family: Inter;
+  color: #222;
+  text-align: left;
+  min-width: 61px;
+}
+.frameInner {
+  height: 50px;
+  width: 506px;
+  position: relative;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enter {
+  position: relative;
+  font-size: 15px;
+  font-family: Inter;
+  color: #a9a9a9;
+  text-align: left;
+  display: inline-block;
+  min-width: 38px;
+  z-index: 1;
+}
+.inputLabels,
+.rectangleGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  flex-direction: row;
+  height: 50px;
+  width: 440px;
+  z-index: 1;
+}
+.inputLabels {
+  flex-direction: column;
+  gap: 10px;
+}
+.password1 {
+  position: relative;
+  font-size: 16px;
+  font-family: Inter;
+  color: #222;
+  text-align: left;
+  display: inline-block;
+  min-width: 74px;
+  z-index: 1;
+}
+.rectangleDiv {
+  height: 50px;
+  width: 506px;
+  position: relative;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enter1 {
+  position: relative;
+  font-size: 15px;
+  font-family: Inter;
+  color: #a9a9a9;
+  text-align: left;
+  display: inline-block;
+  min-width: 38px;
+  z-index: 1;
+}
+.enterWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.groupIcon {
+  height: 19.5px;
+  width: 21.7px;
+  position: relative;
+  min-height: 20px;
+  z-index: 1;
+}
+.inputFields,
+.inputLabels1,
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleContainer {
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  width: 440px;
+  gap: 20px;
+  z-index: 1;
+}
+.inputFields,
+.inputLabels1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.inputFields {
+  padding: 0 0 25px;
+  box-sizing: border-box;
+  gap: 35px;
+}
+.login2 {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter;
+  background-color: #7e6613;
+  color: #fafafa;
+  text-align: left;
+  display: inline-block;
+  min-width: 43px;
+}
+.button {
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: #7e6613;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px 20px;
+  z-index: 1;
+}
+.forgotPassword1 {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #7e6613;
+  text-align: left;
+  z-index: 1;
+}
+.forgotPassword {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+}
+.password {
+  margin: 0;
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 35px;
+}
+.emailInput,
+.emailPlaceholder,
+.password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.emailPlaceholder {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 49px;
+}
+.emailInput {
+  width: 506px;
+  justify-content: flex-end;
+  padding: 0 0 1px;
+  box-sizing: border-box;
+  min-width: 506px;
+}
+.frameChild1,
+.rectangleParent {
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 26px 53px 41px;
+  box-sizing: border-box;
+  gap: 79.1px;
+  flex-shrink: 0;
+}
+.frameChild1 {
+  width: 836px;
+  height: 263.6px;
+  position: relative;
+  display: none;
+}
+.newUser,
+.notAUser {
+  display: flex;
+  max-width: 100%;
+}
+.notAUser {
+  width: 419.4px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.newUser {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 23px;
+  box-sizing: border-box;
+}
+.pleaseCreateAn {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  color: #727272;
+  text-align: center;
+  z-index: 1;
+}
+.registrationMessage {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17.1px;
+  max-width: 100%;
+}
+.registerNow {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 104px;
+}
+.button1,
+.registerButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.button1 {
+  width: 429.1px;
+  border-radius: 4px;
+  border: 1px solid #7e6613;
+  padding: 10px 20px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.registerButton {
+  align-self: stretch;
+  padding: 0 3px 0 0;
+  font-size: 16px;
+  color: #7e6613;
+}
+.groupDiv {
+  width: 836px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 37.5px 49px 40.8px 51px;
+  box-sizing: border-box;
+  gap: 68.1px;
+  flex-shrink: 0;
+}
+.groupDiv,
+.loginFormContainer,
+.newUserRegistration {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.newUserRegistration {
+  width: 1216px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+.loginFormContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 27px;
+}
+.loginForm {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 4px;
+  box-sizing: border-box;
+  font-size: 30px;
+  color: #222;
+}
+.account,
+.accountOptions,
+.loginForm {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.accountOptions {
+  width: 1244px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.account {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 24px 0 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 14px;
+  color: #727272;
+  font-family: Inter;
+}
+@media screen and (max-width: 1350px) {
+  .emailInput,
+  .frameItem {
+    flex: 1;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-left: 26px;
+    padding-right: 26px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .groupDiv {
+    gap: 34px;
+    padding-left: 25px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .login1 {
+    font-size: 24px;
+  }
+  .inputFields,
+  .password {
+    gap: 17px;
+  }
+  .emailPlaceholder {
+    gap: 24px;
+  }
+  .emailInput {
+    min-width: 100%;
+  }
+  .rectangleParent {
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    box-sizing: border-box;
+  }
+  .accountOptions {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login1 {
+    font-size: 18px;
+  }
+  .notAUser {
+    font-size: 19px;
+  }
+  .groupDiv {
+    gap: 17px;
+  }
+}

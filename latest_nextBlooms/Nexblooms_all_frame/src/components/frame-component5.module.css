@@ -1,0 +1,328 @@
+.frameChild {
+  width: 1440px;
+  height: 476px;
+  position: relative;
+  background: linear-gradient(180deg, #193619, #081808);
+  display: none;
+  max-width: 100%;
+}
+.benefitsOfBecoming {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.titleIconChild {
+  height: 2px;
+  width: 154px;
+  position: relative;
+  z-index: 1;
+}
+.titleIcon {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 21px 0 20px;
+}
+.benefitsHeading,
+.benefitsTitle {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.benefitsHeading {
+  width: 389px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.benefitsTitle {
+  width: 1239px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0 4px;
+  box-sizing: border-box;
+}
+.benefitIcon {
+  height: 130px;
+  width: 123px;
+  position: absolute;
+  margin: 0 !important;
+  top: -55px;
+  left: calc(50% - 61.5px);
+  border-radius: 7px;
+  z-index: 1;
+}
+.benefitDescriptionChild {
+  height: 179px;
+  width: 413px;
+  position: relative;
+  border-right: 1px dashed #999;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.eatHealthyStayHealthy {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.benefitDescription {
+  flex: 1;
+  border-right: 1px dashed #999;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 105.8px 40px 44.2px 41px;
+  max-width: 100%;
+}
+.duisAuctorAt {
+  width: 330px;
+  position: absolute;
+  margin: 0 !important;
+  right: 39px;
+  bottom: -54.8px;
+  font-size: 18px;
+  line-height: 150.02%;
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+  z-index: 1;
+}
+.benefitItem,
+.benefitItemWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.benefitItem {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.benefitItemWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 55px 0 54.8px;
+  box-sizing: border-box;
+  min-width: 310px;
+}
+.frameItem {
+  height: 130px;
+  width: 123px;
+  position: absolute;
+  margin: 0 !important;
+  top: -55px;
+  left: calc(50% - 61.5px);
+  border-radius: 7px;
+  z-index: 1;
+}
+.frameInner {
+  height: 179px;
+  width: 413px;
+  position: relative;
+  border-right: 1px dashed #999;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.secureTransactions {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleGroup {
+  flex: 1;
+  border-right: 1px dashed #999;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 105.8px 40px 44.2px 41px;
+  max-width: 100%;
+}
+.duisAuctorAt1 {
+  width: 330px;
+  position: absolute;
+  margin: 0 !important;
+  right: 39px;
+  bottom: -54.8px;
+  font-size: 18px;
+  line-height: 150.02%;
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+  z-index: 1;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 55px 0 54.8px;
+  box-sizing: border-box;
+  min-width: 310px;
+}
+.rectangleDiv {
+  width: 413px;
+  height: 267px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.frameIcon {
+  height: 130px;
+  width: 123px;
+  position: relative;
+  border-radius: 7px;
+  z-index: 1;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 23px 0 20px;
+}
+.verifiedSuppliers {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.duisAuctorAt2 {
+  flex: 1;
+  position: relative;
+  line-height: 150.02%;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.benefitDescription1,
+.benefitItem1 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.benefitDescription1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 2px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 18px;
+  color: #fff;
+}
+.benefitItem1 {
+  flex-direction: column;
+  gap: 18px;
+}
+.benefitItem1,
+.frameParent,
+.rectangleContainer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleContainer {
+  flex: 0.8039;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 39px 0 42px;
+  box-sizing: border-box;
+  gap: 30.8px;
+  min-width: 310px;
+}
+.frameParent {
+  width: 1239px;
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 20px;
+  z-index: 1;
+  font-size: 24px;
+  color: #55b80d;
+}
+.homePageInner,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background: linear-gradient(180deg, #193619, #081808);
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 25px 49.2px 20px;
+  gap: 38px;
+}
+.homePageInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 4px 112px 0;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1150px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .benefitsOfBecoming {
+    font-size: 24px;
+  }
+  .rectangleParent {
+    gap: 19px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+  }
+  .homePageInner {
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .benefitsOfBecoming {
+    font-size: 18px;
+  }
+  .eatHealthyStayHealthy,
+  .secureTransactions,
+  .verifiedSuppliers {
+    font-size: 19px;
+  }
+  .rectangleContainer {
+    gap: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    flex: 1;
+  }
+}

@@ -1,0 +1,76 @@
+.discountChild,
+.off {
+  position: absolute;
+  top: 2.9px;
+  left: 0;
+  width: 105.3px;
+  height: 32.8px;
+  z-index: 1;
+}
+.off {
+  top: 0;
+  line-height: 34.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 98.4px;
+  height: 34.5px;
+  z-index: 2;
+}
+.discount {
+  margin-left: -244px;
+  height: 35.7px;
+  width: 105.3px;
+  position: relative;
+  flex-shrink: 0;
+}
+.priceSeparatorIcon {
+  height: 4.3px;
+  width: 5.8px;
+  position: absolute;
+  margin: 0 !important;
+  top: 42.6px;
+  left: -6px;
+}
+.originalPriceChild {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.originalPrice,
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 0 0;
+}
+.price {
+  align-self: stretch;
+  border-radius: 8px;
+  flex-direction: row;
+  padding: 7px 17px 262px 238px;
+  position: relative;
+  gap: 138.7px;
+  background-image: url(/public/price@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 17.4px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 800px) {
+  .price {
+    gap: 69px;
+    padding-left: 119px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .price {
+    gap: 35px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+}

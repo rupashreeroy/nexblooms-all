@@ -1,0 +1,131 @@
+.addressContentChild {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  z-index: 1;
+}
+.addressContent {
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  height: 107px;
+  width: 542px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #1b421a;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.sujeetKumarSingh {
+  font-weight: 600;
+}
+.span {
+  white-space: pre-wrap;
+}
+.sujeetKumarSinghContainer {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.userAddressAreaContainerChild {
+  width: 14px;
+  height: 20px;
+  position: relative;
+  z-index: 1;
+}
+.userAddressAreaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+}
+.phase2Industrial {
+  flex: 1;
+  position: relative;
+  line-height: 156.8%;
+  display: inline-block;
+  min-width: 233px;
+  max-width: 100%;
+  z-index: 1;
+}
+.nameAndLocation,
+.userAddressDetailsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.userAddressDetailsContainer {
+  align-self: stretch;
+  flex-direction: row;
+  max-width: 100%;
+  font-size: 16px;
+}
+.nameAndLocation {
+  width: 382px;
+  flex-direction: column;
+  max-width: calc(100% - 23px);
+}
+.editAddressButton {
+  width: 3.5px;
+  height: 17.5px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.editAddressIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0 0;
+}
+.addressContainer,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #1b421a;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 11px 19px 10px 30px;
+  min-width: 352px;
+  gap: 20px;
+  z-index: 1;
+}
+.addressContainer {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 12px;
+  text-align: left;
+  font-size: 18px;
+  color: #222;
+  font-family: Inter;
+}
+@media screen and (max-width: 800px) {
+  .rectangleParent {
+    min-width: 100%;
+  }
+  .addressContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .userAddressDetailsContainer {
+    flex-wrap: wrap;
+  }
+}

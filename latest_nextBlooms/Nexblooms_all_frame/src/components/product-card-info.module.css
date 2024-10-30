@@ -1,0 +1,104 @@
+.productCardInfoChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cumin {
+  position: relative;
+  display: inline-block;
+  min-width: 70px;
+}
+.duisAuctorAt {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #727272;
+}
+.div,
+.div1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 76px;
+  white-space: nowrap;
+}
+.div1 {
+  text-decoration: line-through;
+  font-weight: 500;
+  min-width: 69px;
+}
+.wrapper {
+  flex-direction: column;
+  padding: 1.5px 0 0;
+  font-size: 20px;
+  color: #ea4335;
+}
+.cuminParent,
+.parent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.parent {
+  flex-direction: row;
+  gap: 12px;
+  color: #7e6613;
+}
+.cuminParent {
+  width: 285px;
+  flex-direction: column;
+  gap: 8px;
+}
+.frameChild {
+  height: 44px;
+  width: 153px;
+  position: relative;
+  border-radius: 6px;
+  background-color: #7e6613;
+  display: none;
+}
+.moveToCart {
+  position: relative;
+  display: inline-block;
+  min-width: 101px;
+  z-index: 1;
+}
+.productCardInfo,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  border-radius: 6px;
+  background-color: #7e6613;
+  flex-direction: row;
+  padding: 13px 26px 12px;
+  white-space: nowrap;
+  font-size: 16px;
+  color: #fff;
+}
+.productCardInfo {
+  height: 535px;
+  flex-direction: column;
+  gap: 29px;
+  text-align: left;
+  font-size: 22px;
+  color: #222;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .cumin,
+  .div {
+    font-size: 18px;
+  }
+  .div1 {
+    font-size: 16px;
+  }
+}

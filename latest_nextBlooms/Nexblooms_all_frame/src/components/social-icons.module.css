@@ -1,0 +1,855 @@
+.marketplaceName {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #542c16;
+}
+.logo1Child,
+.logo1Inner,
+.logo1Item {
+  position: absolute;
+  height: 100%;
+  width: 70.88%;
+  top: 0;
+  right: 14.47%;
+  bottom: 0;
+  left: 14.65%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logo1Inner {
+  height: 46.61%;
+  width: 30.87%;
+  top: 2.15%;
+  right: 34.5%;
+  bottom: 51.24%;
+  left: 34.62%;
+}
+.subtractIcon {
+  position: relative;
+  width: 170.7px;
+  height: 35.6px;
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  height: 11.81%;
+  width: 99.24%;
+  top: 85.99%;
+  right: 0.41%;
+  bottom: 2.2%;
+  left: 0.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameItem {
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 88.19%;
+  left: 0;
+}
+.span {
+  color: #000;
+}
+.roots {
+  color: #542c16;
+}
+.grassRoots {
+  position: absolute;
+  top: 3.85%;
+  left: 5.08%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+}
+.logo1,
+.subtractParent,
+.vectorParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0.41%;
+  bottom: 0;
+  left: 0.35%;
+}
+.logo1,
+.subtractParent {
+  height: 30.08%;
+  top: 41.16%;
+  right: 0;
+  bottom: 28.76%;
+  left: 0;
+}
+.logo1 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.logo3Child,
+.marketplace {
+  position: absolute;
+  top: 64.71%;
+}
+.logo3Child {
+  height: 10.58%;
+  width: 60.05%;
+  right: 20.33%;
+  bottom: 24.71%;
+  left: 19.63%;
+  background-color: #fff;
+}
+.marketplace {
+  left: 20.45%;
+  font-size: 8.4px;
+  letter-spacing: 0.47em;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #7d8800;
+}
+.logo3 {
+  height: 121px;
+  width: 170.7px;
+  position: relative;
+  display: none;
+}
+.contactInformation {
+  margin: 0;
+  position: relative;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frameIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameWrapper {
+  position: absolute;
+  height: 100%;
+  width: 11.61%;
+  top: 0;
+  right: 88.39%;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.demograssroutescom {
+  position: absolute;
+  width: 83.23%;
+  top: 16.67%;
+  left: 16.77%;
+  display: inline-block;
+  white-space: nowrap;
+}
+.frameParent {
+  width: 310px;
+  height: 36px;
+  position: relative;
+  display: none;
+}
+.contentIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bottom {
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px;
+}
+.xxXxxxxXxxxx {
+  position: relative;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 0 0;
+}
+.bottomParent {
+  flex-direction: row;
+  gap: 12px;
+}
+.bottomParent,
+.contactInformationParent,
+.container,
+.logo3Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactInformationParent {
+  flex-direction: column;
+  gap: 68px;
+  font-size: 20px;
+  color: #fff;
+  font-family: Inter;
+}
+.container,
+.logo3Parent {
+  flex-direction: row;
+}
+.container {
+  width: 294px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 12px;
+  box-sizing: border-box;
+}
+.detailsIcon {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+}
+.socialMedia {
+  height: 293px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 5px;
+  box-sizing: border-box;
+}
+.overview {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 111px;
+}
+.bottomInfoIcon {
+  height: 2px;
+  width: 63px;
+  position: relative;
+}
+.bottomInfoWrapper,
+.overviewParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px;
+}
+.overviewParent {
+  height: 34px;
+  flex-direction: column;
+  padding: 0 0 5px;
+  box-sizing: border-box;
+  gap: 5px;
+}
+.aboutUs,
+.home {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.home {
+  display: inline-block;
+  min-width: 57px;
+}
+.aboutUs {
+  min-width: 89px;
+}
+.aboutUs,
+.blogs,
+.contactUs {
+  display: inline-block;
+}
+.contactUs {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+  min-width: 108px;
+}
+.blogs {
+  min-width: 54px;
+}
+.blogs,
+.privacyPolicy,
+.termsConditions {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.frameContainer,
+.homeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homeParent {
+  gap: 16px;
+  font-size: 20px;
+}
+.frameContainer {
+  gap: 25px;
+  min-width: 187px;
+}
+.categories {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 128px;
+}
+.linksInfoIcon {
+  height: 2px;
+  width: 63px;
+  position: relative;
+}
+.categoriesParent,
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px;
+}
+.categoriesParent {
+  height: 34px;
+  flex-direction: column;
+  padding: 0 0 5px;
+  box-sizing: border-box;
+  gap: 5px;
+}
+.brands,
+.cultivation,
+.deliveries,
+.dispensaries,
+.manufacturing {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.brands,
+.deliveries {
+  display: inline-block;
+  min-width: 94px;
+}
+.brands {
+  min-width: 68px;
+}
+.dispensariesParent,
+.groupDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dispensariesParent {
+  align-self: stretch;
+  gap: 16px;
+  font-size: 20px;
+}
+.groupDiv {
+  flex: 1;
+  gap: 25px;
+  min-width: 142px;
+}
+.products {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 105px;
+}
+.frameInner {
+  height: 2px;
+  width: 63px;
+  position: relative;
+}
+.productsParent,
+.vectorWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px;
+}
+.productsParent {
+  height: 34px;
+  flex-direction: column;
+  padding: 0 0 5px;
+  box-sizing: border-box;
+  gap: 5px;
+}
+.flowers,
+.vapePens {
+  display: inline-block;
+}
+.flowers {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+  min-width: 65px;
+}
+.vapePens {
+  min-width: 123px;
+}
+.concentrates,
+.edibles,
+.preRolls,
+.vapePens {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.edibles {
+  display: inline-block;
+  min-width: 93px;
+}
+.flowersParent,
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.flowersParent {
+  gap: 16px;
+  font-size: 20px;
+}
+.frameDiv,
+.frameParent1 {
+  gap: 25px;
+  min-width: 187px;
+}
+.frameDiv {
+  width: 453px;
+  flex-direction: row;
+  gap: 47px;
+  min-width: 453px;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 791px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+.containerParent,
+.frameGroup,
+.nexBlooms {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.containerParent {
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 67px;
+  z-index: 1;
+}
+.nexBlooms {
+  width: 1422px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.footerDividerIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.copyrightInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 49.5px;
+  max-width: 100%;
+}
+.copyright2023 {
+  width: 549px;
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  display: none;
+  max-width: 100%;
+}
+.iconJamIconsOutlineL,
+.iconJamIconsOutlineL1,
+.iconJamIconsOutlineL2,
+.iconJamIconsOutlineL3,
+.iconJamIconsOutlineL4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.iconJamIconsOutlineLParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.socialMedia1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 7px;
+}
+.appStoreFilled {
+  align-self: stretch;
+  height: 39px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  width: 116.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.vectorIcon,
+.vectorIcon1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  z-index: 1;
+}
+.playButtonShape {
+  width: 15.8px;
+  height: 13.1px;
+  position: relative;
+  z-index: 2;
+}
+.playButtonBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1.1px;
+}
+.getItOn,
+.vectorIcon2 {
+  position: relative;
+  z-index: 2;
+}
+.getItOn {
+  display: inline-block;
+  -webkit-text-stroke: 0.2px #fff;
+  min-width: 39px;
+}
+.vectorIcon2 {
+  align-self: stretch;
+  height: 16.5px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.getItOnParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.1px;
+}
+.googlePlayIconLeft {
+  height: 10.8px;
+  width: 12.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: 14.1px;
+  left: 20px;
+  z-index: 3;
+}
+.googlePlayIconRightBottom,
+.googlePlayIconRightTop {
+  height: 20.9px;
+  width: 10.8px;
+  position: absolute;
+  margin: 0 !important;
+  top: 9px;
+  left: 9.7px;
+  z-index: 4;
+}
+.googlePlayIconRightBottom {
+  height: 12.5px;
+  width: 15.9px;
+  top: 7px;
+  left: 9.8px;
+  z-index: 5;
+}
+.googlePlay {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 4.5px 9px 5.9px;
+  position: relative;
+  gap: 14.2px;
+}
+.button1 {
+  flex: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.button1,
+.buttonParent,
+.copyright2023GrassRootMaParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.buttonParent {
+  flex: 1;
+  align-items: flex-start;
+  gap: 15.6px;
+  min-width: 172px;
+  font-size: 8.2px;
+  font-family: "Open Sans";
+}
+.copyright2023GrassRootMaParent {
+  width: 479px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 31.1px;
+  max-width: 100%;
+  z-index: 1;
+}
+.appInfo,
+.marketplaceNameParent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.appInfo {
+  width: 679px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  font-size: 18px;
+  color: #fff;
+  font-family: Inter;
+}
+.marketplaceNameParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 66px 0 17px;
+  position: relative;
+  gap: 22.5px;
+  color: #55b80d;
+  font-family: "Fugaz One";
+}
+.nexbloomslogoIcon {
+  width: 206px;
+  height: 173px;
+  position: absolute;
+  margin: 0 !important;
+  top: 42px;
+  left: 107px;
+  object-fit: contain;
+  z-index: 2;
+}
+.copyrightSpacingIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.copyrightInfo1 {
+  bottom: 183px;
+  left: 104px;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px;
+}
+.copyright2024,
+.copyrightInfo1,
+.demonexbloomscom {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 2;
+}
+.demonexbloomscom {
+  width: 258px;
+  bottom: 189px;
+  left: 156px;
+  font-size: 20px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.copyright2024 {
+  bottom: 23px;
+  left: 89px;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 500;
+}
+.socialIcons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: 23.6px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1425px) {
+  .containerParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frameContainer {
+    flex: 1;
+  }
+  .frameDiv {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .containerParent {
+    gap: 33px;
+  }
+  .copyrightInfo {
+    gap: 25px;
+  }
+  .copyright2023GrassRootMaParent {
+    gap: 16px;
+  }
+  .marketplaceNameParent {
+    padding-top: 43px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactInformation,
+  .grassRoots {
+    font-size: 19px;
+  }
+  .demograssroutescom,
+  .xxXxxxxXxxxx {
+    font-size: 16px;
+  }
+  .overview {
+    font-size: 19px;
+  }
+  .aboutUs,
+  .blogs,
+  .contactUs,
+  .home,
+  .privacyPolicy,
+  .termsConditions {
+    font-size: 16px;
+  }
+  .categories {
+    font-size: 19px;
+  }
+  .brands,
+  .cultivation,
+  .deliveries,
+  .dispensaries,
+  .manufacturing {
+    font-size: 16px;
+  }
+  .products {
+    font-size: 19px;
+  }
+  .concentrates,
+  .edibles,
+  .flowers,
+  .preRolls,
+  .vapePens {
+    font-size: 16px;
+  }
+  .frameParent1 {
+    flex: 1;
+  }
+  .frameDiv {
+    flex-wrap: wrap;
+    gap: 23px;
+  }
+  .containerParent {
+    gap: 17px;
+  }
+  .demonexbloomscom {
+    font-size: 16px;
+  }
+}

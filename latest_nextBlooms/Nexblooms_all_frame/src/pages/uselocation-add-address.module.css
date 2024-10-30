@@ -1,0 +1,144 @@
+.profileDividerIcon,
+.nexbloomslogoIcon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: contain;
+}
+.nexbloomslogoIcon {
+  width: 85px;
+  height: 70px;
+  top: 6px;
+  left: 27px;
+  z-index: 2;
+}
+.profileDividerIcon {
+  height: 11.7px;
+  width: 6px;
+  top: 4.6px;
+  left: 52px;
+}
+.account,
+.profile {
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+}
+.account {
+  text-decoration: none;
+  color: inherit;
+  min-width: 40px;
+}
+.profile {
+  font-weight: 500;
+  color: #222;
+  min-width: 43px;
+}
+.accountOptions,
+.profileHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.accountOptions {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.profileHeader {
+  align-self: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+.profile1 {
+  margin: 0;
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: inherit;
+  color: #222;
+  display: inline-block;
+  min-width: 96px;
+}
+.profileHeaderParent {
+  width: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39px;
+}
+.rightSidebarBackground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+.rightSidebar {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 80px 100px 94px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 34px;
+  max-width: 100%;
+  margin-top: -51px;
+}
+.frameParent,
+.rightSidebar,
+.uselocationAddAddress {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-end;
+  max-width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #727272;
+  font-family: Inter;
+}
+.uselocationAddAddress {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .rightSidebar {
+    padding-bottom: 61px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .profile1 {
+    font-size: 24px;
+  }
+  .rightSidebar {
+    gap: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .profile1 {
+    font-size: 18px;
+  }
+  .rightSidebar {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
+}

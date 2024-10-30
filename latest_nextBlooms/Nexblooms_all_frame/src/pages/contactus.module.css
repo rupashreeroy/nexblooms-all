@@ -1,0 +1,648 @@
+.frameChild {
+  height: 11.7px;
+  width: 6px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4.6px;
+  left: 52px;
+  object-fit: contain;
+}
+.account,
+.contactUs {
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+}
+.account {
+  text-decoration: none;
+  color: inherit;
+  min-width: 40px;
+}
+.contactUs {
+  font-weight: 500;
+  color: #222;
+  min-width: 75px;
+}
+.contactInfoLinks,
+.lineParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactInfoLinks {
+  gap: 30px;
+}
+.lineParent {
+  position: relative;
+}
+.contactUs1 {
+  position: relative;
+  font-size: 30px;
+  display: none;
+}
+.bxsphoneCallIcon,
+.carbonlocationFilledIcon,
+.icsharpEmailIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.contactUsDirectly,
+.informationBelow {
+  margin: 0;
+}
+.contactUsDirectlyContainer {
+  position: relative;
+  font-size: 18px;
+  color: #fff;
+  display: none;
+}
+.frameItem {
+  height: 138px;
+  width: 138px;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(255, 249, 249, 0.13);
+  display: none;
+}
+.contactInformation {
+  position: relative;
+  font-size: 28px;
+  display: none;
+  color: #fff;
+}
+.frameInner {
+  height: 688px;
+  width: 1240px;
+  position: relative;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  display: none;
+  max-width: 100%;
+}
+.contactInformation1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.contactUsDirectly1 {
+  position: relative;
+  font-size: 16px;
+  z-index: 2;
+}
+.phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  font-size: 28px;
+}
+.bxsphoneCallIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 2;
+}
+.phoneNumber1 {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 2;
+}
+.phoneNumber,
+.phoneNumberWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.phoneNumberWrapper {
+  flex-direction: column;
+  padding: 2px 0 0;
+}
+.phoneNumber {
+  flex-direction: row;
+  gap: 22.1px;
+}
+.icsharpEmailIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  z-index: 2;
+}
+.demogmailcom {
+  position: relative;
+  white-space: nowrap;
+  z-index: 2;
+}
+.demogmailcomWrapper,
+.emailAddress {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.demogmailcomWrapper {
+  flex-direction: column;
+  padding: 2px 0 0;
+}
+.emailAddress {
+  flex-direction: row;
+  gap: 25px;
+}
+.carbonlocationFilledIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.dartmouthStreetBoston {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 187px;
+  z-index: 2;
+}
+.address,
+.contactInfoItems,
+.email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.address {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 25px;
+}
+.contactInfoItems,
+.email {
+  flex-direction: column;
+  max-width: 100%;
+}
+.email {
+  width: 337px;
+  gap: 24px;
+}
+.contactInfoItems {
+  gap: 25px;
+}
+.socialMediaLinks1 {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+}
+.demogmailcom1 {
+  position: relative;
+  white-space: nowrap;
+}
+.dartmouthStreetBoston1 {
+  width: 288px;
+  position: relative;
+  display: inline-block;
+}
+.g10Icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.socialMediaLinks {
+  flex: 1;
+  flex-direction: column;
+  padding: 18px 20px 134px 37px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 54px;
+}
+.contactInfoContainer,
+.socialMedia,
+.socialMediaLinks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.socialMedia {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 11px;
+  box-sizing: border-box;
+  color: #fff;
+}
+.contactInfoContainer {
+  width: 490px;
+  flex-direction: column;
+  gap: 37px;
+}
+.footerDividerIcon {
+  height: 592px;
+  width: 1px;
+}
+.contactUs2,
+.firstName,
+.footerDividerIcon {
+  position: relative;
+  z-index: 2;
+}
+.contactUs2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.firstName {
+  display: inline-block;
+  min-width: 83px;
+}
+.rectangleDiv {
+  height: 50px;
+  width: 266px;
+  position: relative;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  display: none;
+}
+.enterFirstName {
+  position: relative;
+  display: inline-block;
+  min-width: 113px;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 14px 24px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.emailId {
+  position: relative;
+  font-size: 16px;
+  color: #222;
+  display: inline-block;
+  min-width: 59px;
+  z-index: 2;
+}
+.firstNameInput {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 15px;
+  color: #a9a9a9;
+}
+.firstNameField,
+.firstNameInput,
+.nameFields {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.firstNameField {
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 173px;
+}
+.nameFields {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 16px;
+}
+.frameChild1 {
+  height: 50px;
+  width: 548px;
+  position: relative;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enterEmailId {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.emailInput,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 1;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  padding: 14px 24px;
+  z-index: 2;
+}
+.emailInput {
+  align-self: stretch;
+  padding: 0 0 14px;
+  font-size: 15px;
+  color: #a9a9a9;
+}
+.mobileNumber {
+  position: relative;
+  display: inline-block;
+  min-width: 116px;
+  z-index: 2;
+}
+.countryCodeChild {
+  height: 50px;
+  width: 102px;
+  position: relative;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  display: none;
+}
+.image5Icon {
+  align-self: stretch;
+  width: 25px;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 19px;
+}
+.image5Icon,
+.plusSign,
+.polygonIcon {
+  position: relative;
+  z-index: 3;
+}
+.plusSign {
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 28px;
+  white-space: nowrap;
+}
+.polygonIcon {
+  width: 13px;
+  height: 8px;
+  object-fit: contain;
+}
+.plusSignParent,
+.vectorWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorWrapper {
+  flex-direction: column;
+  padding: 6px 0 0;
+}
+.plusSignParent {
+  flex-direction: row;
+  gap: 3px;
+}
+.countryCode,
+.mobileNumberHintChild {
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+}
+.countryCode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13px 10px 14px 11px;
+  gap: 10px;
+  z-index: 2;
+}
+.mobileNumberHintChild {
+  height: 50px;
+  width: 432px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enterMobileNumber {
+  position: relative;
+  z-index: 3;
+}
+.formFields,
+.mobileNumberHint,
+.mobileNumberInput,
+.phoneNumberField {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.mobileNumberHint {
+  flex: 1;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 14px 28px;
+  min-width: 148px;
+  white-space: nowrap;
+  z-index: 2;
+  font-size: 15px;
+  color: #a9a9a9;
+  font-family: Inter;
+}
+.formFields,
+.mobileNumberInput,
+.phoneNumberField {
+  align-self: stretch;
+}
+.mobileNumberInput {
+  flex-direction: row;
+  gap: 14px;
+  font-family: Roboto;
+}
+.formFields,
+.phoneNumberField {
+  flex-direction: column;
+  padding: 0 0 14px;
+  box-sizing: border-box;
+  gap: 10px;
+}
+.formFields {
+  padding: 0 0 17px;
+}
+.submit {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 55px;
+}
+.button,
+.contactForm {
+  display: flex;
+  align-items: flex-start;
+}
+.button {
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: #7e6613;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 20px;
+  z-index: 2;
+  color: #fafafa;
+}
+.contactForm {
+  width: 548px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 25px;
+  max-width: 100%;
+}
+.contactUsParent {
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 46px 45px 50px 51px;
+  box-sizing: border-box;
+  gap: 52.5px;
+  z-index: 1;
+  font-size: 16px;
+  color: #222;
+}
+.contactUsParent,
+.footerContent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.footerContent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 31px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+  color: #727272;
+  font-family: Inter;
+}
+.nexbloomslogoIcon {
+  width: 85px;
+  height: 70px;
+  position: absolute;
+  margin: 0 !important;
+  top: 6px;
+  left: 24px;
+  object-fit: contain;
+  z-index: 2;
+}
+.contactus {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 20px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .contactUsParent {
+    flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 22px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contactUs1 {
+    font-size: 24px;
+  }
+  .contactInfoContainer {
+    gap: 18px;
+  }
+  .mobileNumberInput,
+  .nameFields {
+    flex-wrap: wrap;
+  }
+  .contactUsParent {
+    gap: 26px;
+    padding-top: 30px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactUs1 {
+    font-size: 18px;
+  }
+  .contactInformation,
+  .contactInformation1 {
+    font-size: 22px;
+  }
+  .address {
+    flex-wrap: wrap;
+  }
+  .socialMediaLinks {
+    gap: 27px;
+  }
+  .contactUs2 {
+    font-size: 22px;
+  }
+}

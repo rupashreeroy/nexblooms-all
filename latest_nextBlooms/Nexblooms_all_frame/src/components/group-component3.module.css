@@ -1,0 +1,77 @@
+.categories {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 128px;
+}
+.categoryIconChild {
+  height: 2px;
+  width: 63px;
+  position: relative;
+}
+.categoriesParent,
+.categoryIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px;
+}
+.categoriesParent {
+  height: 34px;
+  flex-direction: column;
+  padding: 0 0 5px;
+  box-sizing: border-box;
+  gap: 5px;
+}
+.brands,
+.cultivation,
+.deliveries,
+.dispensaries,
+.manufacturing {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.brands,
+.deliveries {
+  display: inline-block;
+  min-width: 94px;
+}
+.brands {
+  min-width: 68px;
+}
+.dispensariesParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dispensariesParent {
+  align-self: stretch;
+  gap: 16px;
+  font-size: 20px;
+}
+.frameParent {
+  flex: 1;
+  gap: 25px;
+  min-width: 142px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .categories {
+    font-size: 19px;
+  }
+  .brands,
+  .cultivation,
+  .deliveries,
+  .dispensaries,
+  .manufacturing {
+    font-size: 16px;
+  }
+}

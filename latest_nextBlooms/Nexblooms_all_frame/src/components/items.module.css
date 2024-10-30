@@ -1,0 +1,709 @@
+.itemsChild {
+  width: 1440px;
+  height: 1046.4px;
+  position: relative;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.topDiscountDeals {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.discountDealsViewMoreIcon {
+  width: 257px;
+  height: 2px;
+  position: relative;
+  z-index: 1;
+}
+.topDiscountDealsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23.8px;
+}
+.viewAll {
+  height: 33.6px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 88px;
+  z-index: 1;
+}
+.iconWrapperChild {
+  width: 9px;
+  height: 23.7px;
+  position: relative;
+  z-index: 1;
+}
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 4.9px;
+}
+.viewAllParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 13.7px 0 0;
+  font-size: 22px;
+  color: #7e6613;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.milk1Bottle {
+  position: relative;
+}
+.duisAuctorAt,
+.number,
+.stars {
+  position: relative;
+  display: inline-block;
+}
+.duisAuctorAt {
+  width: 285px;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #727272;
+}
+.number,
+.stars {
+  font-weight: 600;
+  min-width: 76px;
+  white-space: nowrap;
+}
+.number {
+  text-decoration: line-through;
+  font-weight: 500;
+  min-width: 69px;
+}
+.productName,
+.ratingCount,
+.ratings {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ratingCount {
+  flex-direction: column;
+  padding: 1.5px 0 0;
+  font-size: 20px;
+  color: #ea4335;
+}
+.productName,
+.ratings {
+  flex-direction: row;
+  gap: 12px;
+  color: #7e6613;
+}
+.productName {
+  align-self: stretch;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 9px 0;
+  gap: 8px;
+  font-size: 22px;
+  color: #222;
+}
+.frameChild {
+  height: 44px;
+  width: 153px;
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid #7e6613;
+  box-sizing: border-box;
+  display: none;
+}
+.viewDetails {
+  position: relative;
+  display: inline-block;
+  min-width: 98px;
+  z-index: 1;
+}
+.cardContent,
+.productInfo,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  border-radius: 6px;
+  border: 1px solid #7e6613;
+  flex-direction: row;
+  padding: 11px 27px 10px;
+  white-space: nowrap;
+  font-size: 16px;
+  color: #7e6613;
+}
+.cardContent,
+.productInfo {
+  flex-direction: column;
+}
+.productInfo {
+  align-self: stretch;
+  background-color: #fff;
+  gap: 20px;
+  z-index: 1;
+}
+.cardContent {
+  width: 311.8px;
+  padding: 0 16px 0 0;
+  box-sizing: border-box;
+}
+.discountChild,
+.off {
+  position: absolute;
+  top: 2.9px;
+  left: 0;
+  width: 105.3px;
+  height: 32.8px;
+  z-index: 1;
+}
+.off {
+  top: 0;
+  line-height: 34.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 98.4px;
+  height: 34.5px;
+  z-index: 2;
+}
+.discount {
+  margin-left: -244px;
+  height: 35.7px;
+  width: 105.3px;
+  position: relative;
+  flex-shrink: 0;
+}
+.priceSeparatorIcon {
+  height: 4.3px;
+  width: 5.8px;
+  position: absolute;
+  margin: 0 !important;
+  top: 42.6px;
+  left: -6px;
+}
+.originalPriceChild {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.originalPrice,
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 0 0;
+}
+.price {
+  width: 295px;
+  border-radius: 8px;
+  flex-direction: row;
+  padding: 7px 17px 262px 238px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 138.7px;
+  background-image: url(/public/price1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 1;
+}
+.priceIcon,
+.priceIcon1 {
+  height: 5.4px;
+  width: 5.8px;
+  position: absolute;
+  margin: 0 !important;
+  top: 53.1px;
+  z-index: 3;
+}
+.priceIcon {
+  left: 309px;
+}
+.priceIcon1 {
+  right: 0;
+}
+.cardContent1,
+.productInfo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.productInfo1 {
+  flex: 1;
+  padding: 0 20px 0 0;
+  position: relative;
+  gap: 20px;
+}
+.cardContent1 {
+  align-self: stretch;
+  padding: 0 0 0 3px;
+  text-align: center;
+}
+.almonds100Gm {
+  position: relative;
+}
+.duisAuctorAt1,
+.number1,
+.stars1 {
+  position: relative;
+  display: inline-block;
+}
+.duisAuctorAt1 {
+  width: 285px;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #727272;
+}
+.number1,
+.stars1 {
+  font-weight: 600;
+  min-width: 76px;
+  white-space: nowrap;
+}
+.number1 {
+  text-decoration: line-through;
+  font-weight: 500;
+  min-width: 69px;
+}
+.ratingCount1 {
+  flex-direction: column;
+  padding: 1.5px 0 0;
+  font-size: 20px;
+  color: #ea4335;
+}
+.almonds,
+.ratingCount1,
+.ratings1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ratings1 {
+  flex-direction: row;
+  gap: 12px;
+  color: #7e6613;
+}
+.almonds {
+  flex: 1;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 9px 0;
+  box-sizing: border-box;
+  gap: 8px;
+  min-width: 192px;
+  z-index: 1;
+}
+.greenTea100Gm {
+  position: relative;
+  text-transform: capitalize;
+}
+.div,
+.div1,
+.duisAuctorAt2 {
+  position: relative;
+  display: inline-block;
+}
+.duisAuctorAt2 {
+  width: 285px;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #727272;
+}
+.div,
+.div1 {
+  font-weight: 600;
+  min-width: 76px;
+  white-space: nowrap;
+}
+.div1 {
+  text-decoration: line-through;
+  font-weight: 500;
+  min-width: 69px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.5px 0 0;
+  font-size: 20px;
+  color: #ea4335;
+}
+.parent {
+  flex-direction: row;
+  gap: 12px;
+  color: #7e6613;
+}
+.almonds1,
+.parent,
+.productName1,
+.productName2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.almonds1 {
+  flex: 1;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 9px 0;
+  box-sizing: border-box;
+  gap: 8px;
+  min-width: 192px;
+  z-index: 1;
+}
+.productName1,
+.productName2 {
+  flex-direction: row;
+  max-width: 100%;
+}
+.productName2 {
+  flex: 1;
+  gap: 20px;
+}
+.productName1 {
+  width: 616px;
+  padding: 0 3px;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: #222;
+}
+.frameItem {
+  height: 49px;
+  width: 165px;
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid #7e6613;
+  box-sizing: border-box;
+  display: none;
+}
+.viewDetails1 {
+  position: relative;
+  display: inline-block;
+  min-width: 105.7px;
+  z-index: 1;
+}
+.frameInner,
+.rectangleGroup {
+  border-radius: 6px;
+  border: 1px solid #7e6613;
+}
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 28px 13px 31px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameInner {
+  height: 44px;
+  width: 153px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+}
+.viewDetails2 {
+  position: relative;
+  display: inline-block;
+  min-width: 98px;
+  z-index: 1;
+}
+.rectangleContainer {
+  border-radius: 6px;
+  border: 1px solid #7e6613;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11px 27px 10px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.actions,
+.productCard1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 100%;
+}
+.actions {
+  width: 471px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #7e6613;
+}
+.productCard1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 411px;
+}
+.mangoShake100Ml {
+  position: relative;
+}
+.duisAuctorAt3,
+.number2,
+.stars2 {
+  position: relative;
+  display: inline-block;
+}
+.duisAuctorAt3 {
+  width: 285px;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #727272;
+}
+.number2,
+.stars2 {
+  font-weight: 600;
+  min-width: 76px;
+  white-space: nowrap;
+}
+.number2 {
+  text-decoration: line-through;
+  font-weight: 500;
+  min-width: 69px;
+}
+.ratingCount2 {
+  flex-direction: column;
+  padding: 1.5px 0 0;
+  font-size: 20px;
+  color: #ea4335;
+}
+.productName3,
+.ratingCount2,
+.ratings2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ratings2 {
+  flex-direction: row;
+  gap: 12px;
+  color: #7e6613;
+}
+.productName3 {
+  align-self: stretch;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 9px 0;
+  gap: 8px;
+  z-index: 1;
+}
+.rectangleDiv {
+  height: 44px;
+  width: 153px;
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid #7e6613;
+  box-sizing: border-box;
+  display: none;
+}
+.viewDetails3 {
+  position: relative;
+  display: inline-block;
+  min-width: 98px;
+  z-index: 1;
+}
+.groupDiv,
+.productCard2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupDiv {
+  border-radius: 6px;
+  border: 1px solid #7e6613;
+  flex-direction: row;
+  padding: 11px 27px 10px;
+  white-space: nowrap;
+  z-index: 1;
+  font-size: 16px;
+  color: #7e6613;
+}
+.productCard2 {
+  width: 295px;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 22px;
+  color: #222;
+}
+.frameParent,
+.productCard {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.productCard {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.2px;
+  font-size: 17.4px;
+  color: #fff;
+}
+.frameParent {
+  width: 1240px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 42.9px;
+}
+.placeholderChild {
+  height: 50.9px;
+  width: 166.1px;
+  position: relative;
+  z-index: 1;
+}
+.items,
+.placeholder {
+  width: 1239px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.items {
+  margin-left: -13px;
+  margin-bottom: 35.6px;
+  width: 1440px;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 123.3px 86px 26.3px;
+  box-sizing: border-box;
+  gap: 201.2px;
+  z-index: 2;
+  text-align: left;
+  font-size: 30px;
+  color: #222;
+  font-family: Inter;
+}
+@media screen and (max-width: 1350px) {
+  .items {
+    gap: 101px;
+    padding-left: 43px;
+    padding-right: 43px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .items {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .topDiscountDeals {
+    font-size: 24px;
+  }
+  .price {
+    gap: 69px;
+    padding-left: 119px;
+    box-sizing: border-box;
+  }
+  .productInfo1,
+  .productName2 {
+    flex-wrap: wrap;
+  }
+  .productCard1 {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 21px;
+  }
+  .items {
+    gap: 50px;
+    padding-left: 21px;
+    padding-top: 52px;
+    padding-right: 21px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .topDiscountDeals,
+  .viewAll {
+    font-size: 18px;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .milk1Bottle,
+  .stars {
+    font-size: 18px;
+  }
+  .number {
+    font-size: 16px;
+  }
+  .price {
+    gap: 35px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .almonds100Gm,
+  .stars1 {
+    font-size: 18px;
+  }
+  .number1 {
+    font-size: 16px;
+  }
+  .div,
+  .greenTea100Gm {
+    font-size: 18px;
+  }
+  .div1 {
+    font-size: 16px;
+  }
+  .actions {
+    flex-wrap: wrap;
+  }
+  .mangoShake100Ml,
+  .stars2 {
+    font-size: 18px;
+  }
+  .number2 {
+    font-size: 16px;
+  }
+  .items {
+    gap: 25px;
+  }
+}

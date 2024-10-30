@@ -1,0 +1,248 @@
+.productCardDivider {
+  height: 11.7px;
+  width: 6px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4.6px;
+  left: 52px;
+  object-fit: contain;
+}
+.home,
+.wishlist {
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+}
+.home {
+  text-decoration: none;
+  color: inherit;
+  min-width: 40px;
+}
+.wishlist {
+  font-weight: 500;
+  color: #222;
+  min-width: 53px;
+}
+.productCard,
+.productCardHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.productCardHeader {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.productCard {
+  width: 123px;
+  justify-content: flex-start;
+  position: relative;
+}
+.items,
+.wishlist1 {
+  position: relative;
+  display: inline-block;
+}
+.wishlist1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  min-width: 120px;
+}
+.items {
+  min-width: 97px;
+}
+.productCardWishlistCount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2px;
+  font-size: 20px;
+  color: #727272;
+}
+.productCardWishlist {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 7px;
+  font-size: 30px;
+  color: #222;
+}
+.productCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39px;
+}
+.productCardImageContainer {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.coriander {
+  position: relative;
+  display: inline-block;
+  min-width: 108px;
+}
+.duisAuctorAt {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #727272;
+}
+.productCardAction1,
+.productCardEmpty {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 76px;
+  white-space: nowrap;
+}
+.productCardAction1 {
+  text-decoration: line-through;
+  font-weight: 500;
+  min-width: 69px;
+}
+.productCardAction,
+.productCardActionContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productCardAction {
+  flex-direction: column;
+  padding: 1.5px 0 0;
+  font-size: 20px;
+  color: #ea4335;
+}
+.productCardActionContainer {
+  flex-direction: row;
+  padding: 0 0 21px;
+  gap: 12px;
+  color: #7e6613;
+}
+.frameChild {
+  height: 44px;
+  width: 153px;
+  position: relative;
+  border-radius: 6px;
+  background-color: #7e6613;
+  display: none;
+}
+.moveToCart {
+  position: relative;
+  display: inline-block;
+  min-width: 101px;
+  z-index: 1;
+}
+.rectangleParent {
+  border-radius: 6px;
+  background-color: #7e6613;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13px 26px 12px;
+  white-space: nowrap;
+  font-size: 16px;
+  color: #fff;
+}
+.corianderParent {
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.corianderParent,
+.productCardInfo,
+.productCardInfoParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productCardInfo {
+  height: 535px;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+.productCardInfoParent {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  gap: 20px;
+  grid-template-columns: repeat(4, minmax(221px, 1fr));
+  font-size: 22px;
+  color: #222;
+}
+.productsList {
+  flex-direction: column;
+  gap: 35px;
+}
+.productGrid,
+.productsList,
+.productsWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productGrid {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 46px 18.7px;
+  min-height: 1116px;
+}
+.productsWrapper {
+  flex-direction: column;
+  gap: 46px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 14px;
+  color: #727272;
+  font-family: Inter;
+}
+@media screen and (max-width: 1150px) {
+  .productCardInfoParent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(221px, 383px));
+  }
+}
+@media screen and (max-width: 800px) {
+  .wishlist1 {
+    font-size: 24px;
+  }
+  .productsList {
+    gap: 17px;
+  }
+  .productsWrapper {
+    gap: 23px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .wishlist1 {
+    font-size: 18px;
+  }
+  .items {
+    font-size: 16px;
+  }
+  .coriander,
+  .productCardEmpty {
+    font-size: 18px;
+  }
+  .productCardAction1 {
+    font-size: 16px;
+  }
+  .productCardInfoParent {
+    grid-template-columns: minmax(221px, 1fr);
+  }
+}

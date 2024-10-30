@@ -1,0 +1,105 @@
+.productContainerIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ghee {
+  position: relative;
+  display: inline-block;
+  min-width: 57px;
+}
+.duisAuctorAt {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #727272;
+}
+.placeholder,
+.starIcons {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 76px;
+  white-space: nowrap;
+}
+.starIcons {
+  text-decoration: line-through;
+  font-weight: 500;
+  min-width: 69px;
+}
+.rating {
+  flex-direction: column;
+  padding: 1.5px 0 0;
+  font-size: 20px;
+  color: #ea4335;
+}
+.productCard,
+.productDetails,
+.rating {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productDetails {
+  flex-direction: row;
+  gap: 12px;
+  color: #7e6613;
+}
+.productCard {
+  width: 285px;
+  flex-direction: column;
+  gap: 8px;
+}
+.frameChild {
+  height: 44px;
+  width: 153px;
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid #7e6613;
+  box-sizing: border-box;
+  display: none;
+}
+.viewDetails {
+  position: relative;
+  display: inline-block;
+  min-width: 98px;
+  z-index: 1;
+}
+.productRow,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  border-radius: 6px;
+  border: 1px solid #7e6613;
+  flex-direction: row;
+  padding: 11px 27px 10px;
+  white-space: nowrap;
+  font-size: 16px;
+  color: #7e6613;
+}
+.productRow {
+  height: 535px;
+  flex-direction: column;
+  gap: 29px;
+  text-align: left;
+  font-size: 22px;
+  color: #222;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .ghee,
+  .placeholder {
+    font-size: 18px;
+  }
+  .starIcons {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,644 @@
+.deliveryRect {
+  width: 100%;
+  height: 92.8px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #081808;
+}
+.searchIcon {
+  width: 20.9px;
+  height: 30.4px;
+  position: relative;
+}
+.searchInputField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2.8px;
+}
+.deliveryAddress {
+  text-decoration: none;
+  position: relative;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+  min-width: 95px;
+  white-space: nowrap;
+}
+.locationPinIcon,
+.noida201301 {
+  position: relative;
+  flex-shrink: 0;
+}
+.noida201301 {
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 107px;
+  white-space: nowrap;
+}
+.locationPinIcon {
+  width: 9.4px;
+  height: 5.5px;
+}
+.addressLocation,
+.locationIcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.locationIcon {
+  flex-direction: column;
+  padding: 7.1px 0 0;
+}
+.addressLocation {
+  flex-direction: row;
+  gap: 7.7px;
+  font-size: 16px;
+}
+.deliveryAddressParent,
+.searchInputFieldParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.2px;
+}
+.searchInputFieldParent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 12px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.1px 0 0;
+}
+.searchRect {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+.searchByProduct {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+  z-index: 1;
+}
+.searchByProductWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12.7px 0 0;
+}
+.searchButtonBackground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 4px 4px 0;
+  background-color: #7fcb2d;
+}
+.searchIcon1 {
+  position: absolute;
+  height: 45.52%;
+  width: 34.43%;
+  top: 27.35%;
+  right: 32.87%;
+  bottom: 27.13%;
+  left: 32.7%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.searchButtonBackgroundParent {
+  height: 44.6px;
+  width: 57.8px;
+  position: relative;
+  z-index: 1;
+}
+.searchRectParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0.3px 1px 0 20px;
+  box-sizing: border-box;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 100%;
+  gap: 20px;
+}
+.frameChild,
+.vectorIcon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.vectorIcon {
+  height: 84.32%;
+  width: 87.84%;
+  top: 15.68%;
+  right: 12.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  background-color: #7fcb2d;
+}
+.a,
+.ellipseParent {
+  position: absolute;
+  z-index: 1;
+}
+.a {
+  text-decoration: none;
+  height: 53.81%;
+  width: 31.96%;
+  top: 22.87%;
+  left: 36.53%;
+  color: inherit;
+  display: inline-block;
+  min-width: 7px;
+}
+.ellipseParent {
+  height: 52.97%;
+  width: 66.57%;
+  top: 0;
+  right: 0;
+  bottom: 47.03%;
+  left: 33.43%;
+}
+.vectorParent {
+  height: 42.1px;
+  width: 32.9px;
+  position: relative;
+  flex-shrink: 0;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.frameItem {
+  height: 90.1%;
+  width: 82.01%;
+  top: 9.9%;
+  right: 17.99%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameInner {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  background-color: #7fcb2d;
+}
+.a1,
+.ellipseGroup {
+  position: absolute;
+  z-index: 1;
+}
+.a1 {
+  text-decoration: none;
+  top: 22.42%;
+  left: 36.07%;
+  color: inherit;
+  display: inline-block;
+  min-width: 6px;
+}
+.ellipseGroup {
+  height: 58.07%;
+  width: 56.3%;
+  top: 0;
+  right: 0;
+  bottom: 41.93%;
+  left: 43.7%;
+}
+.frameParent1 {
+  align-self: stretch;
+  height: 38.4px;
+  position: relative;
+  flex-shrink: 0;
+}
+.filterIconsInner {
+  width: 38.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1.6px;
+  box-sizing: border-box;
+  font-size: 9.3px;
+}
+.filterIcons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.filters {
+  width: 117.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+  font-size: 9.5px;
+  color: #000;
+}
+.logo1Child,
+.logo1Inner,
+.logo1Item {
+  position: absolute;
+  width: 69.9px;
+  height: 71.1px;
+  display: none;
+}
+.logo1Inner {
+  width: 30.4px;
+  height: 33.2px;
+}
+.subtractIcon {
+  position: relative;
+  width: 98.6px;
+  height: 20.9px;
+}
+.frameChild1,
+.frameChild2 {
+  position: absolute;
+  height: 11.96%;
+  width: 99.29%;
+  top: 88.04%;
+  right: 0.3%;
+  bottom: 0;
+  left: 0.41%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameChild2 {
+  height: 12.02%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 87.98%;
+  left: 0;
+}
+.span {
+  color: #000;
+}
+.roots {
+  color: #542c16;
+}
+.grassRoots {
+  position: absolute;
+  top: 4.33%;
+  left: 5.01%;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.vectorGroup {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0.3%;
+  bottom: 0.48%;
+  left: 0.41%;
+}
+.logo1,
+.nexbloomlogoChild,
+.subtractParent {
+  position: absolute;
+  width: 98.6px;
+  height: 20.9px;
+  display: none;
+}
+.logo1,
+.nexbloomlogoChild {
+  width: 0;
+  height: 0;
+}
+.nexbloomlogoChild {
+  background-color: #fff;
+  width: 59.2px;
+  height: 7.5px;
+}
+.marketplace {
+  position: absolute;
+  font-size: 4.9px;
+  letter-spacing: 0.47em;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #7d8800;
+  display: none;
+}
+.nexbloomlogo {
+  height: 0;
+  width: 0;
+  position: relative;
+  display: none;
+  font-size: 13.7px;
+  color: #55b80d;
+  font-family: "Fugaz One";
+}
+.frameGroup,
+.groupDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.groupDiv {
+  flex: 1;
+  gap: 140.4px;
+  flex-shrink: 0;
+  z-index: 1;
+  font-size: 16px;
+  color: #a9a9a9;
+}
+.frameGroup {
+  width: 988.4px;
+  padding: 0 4px 0 0;
+  box-sizing: border-box;
+  gap: 66.3px;
+}
+.login {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 43px;
+}
+.button {
+  border-radius: 4px;
+  background-color: #7e6613;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 30px;
+  z-index: 1;
+  font-size: 16px;
+  color: #fafafa;
+}
+.groupIcon {
+  width: 31px;
+  height: 23.3px;
+  position: relative;
+  z-index: 1;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9.7px 0 0;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: 42.7px;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 1px;
+  box-sizing: border-box;
+}
+.categoriesBrandsBackground {
+  height: 54px;
+  width: 3000px;
+  position: absolute;
+  margin: 0 !important;
+  top: -17.5px;
+  right: -331.6px;
+  background-color: #eae1c1;
+  z-index: 1;
+}
+.categories,
+.home {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 46px;
+}
+.categories {
+  min-width: 86px;
+}
+.categoryIcon {
+  width: 9.4px;
+  height: 5.5px;
+  position: relative;
+}
+.categoryIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 4.7px;
+}
+.categoriesParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.products,
+.vectorIcon1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.products {
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 70px;
+}
+.vectorIcon1 {
+  width: 9.4px;
+  height: 5.5px;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 4.7px;
+}
+.homeParent,
+.productsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 8.1px;
+}
+.homeParent {
+  margin: 0;
+  align-items: flex-start;
+  gap: 59.8px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #222;
+  font-family: Inter;
+}
+.licenseCertificate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.licenseCertificateWrapper {
+  height: 20px;
+  width: 162px;
+  position: relative;
+  display: none;
+}
+.brands {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 55px;
+}
+.blog,
+.positiveVibesEntertainment {
+  align-self: stretch;
+  width: 35px;
+  position: relative;
+  font-weight: 600;
+  display: none;
+  align-items: center;
+}
+.positiveVibesEntertainment {
+  width: 225px;
+  white-space: nowrap;
+}
+.frameParent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  z-index: 2;
+}
+.categoriesBrands,
+.deliveryRectParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.categoriesBrands {
+  width: 11455px;
+  flex-direction: row;
+  font-size: 16px;
+  color: #222;
+}
+.deliveryRectParent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 24.3px 36px 17.5px 39px;
+  box-sizing: border-box;
+  gap: 39.3px;
+  text-align: left;
+  font-size: 12px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1350px) {
+  .homeParent {
+    display: none;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .frameGroup {
+    gap: 33px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .groupDiv {
+    gap: 70px;
+  }
+  .frameGroup {
+    gap: 17px;
+  }
+  .frameParent {
+    gap: 21px;
+  }
+  .deliveryRectParent {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .groupDiv {
+    gap: 35px;
+  }
+  .homeParent {
+    gap: 30px;
+  }
+}

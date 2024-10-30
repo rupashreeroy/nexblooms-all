@@ -1,0 +1,9 @@
+<svg width="20" height="296" viewBox="0 0 20 296" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="10" cy="102" r="10" fill="#DADADA"/>
+<circle cx="10" cy="102" r="5" fill="#7E6613"/>
+<circle cx="10" cy="5" r="5" fill="#7E6613"/>
+<path d="M9 0H11V101.3C11 101.687 10.6866 102 10.3 102H9.7C9.3134 102 9 101.687 9 101.3V0Z" fill="#7E6613"/>
+<path d="M9 111H11V292.3C11 292.687 10.6866 293 10.3 293H9.7C9.3134 293 9 292.687 9 292.3V111Z" fill="#CDCDCD"/>
+<circle cx="10" cy="205" r="3.75" fill="#222222" stroke="white" stroke-width="0.5"/>
+<circle cx="10" cy="292" r="3.75" fill="#222222" stroke="white" stroke-width="0.5"/>
+</svg>
