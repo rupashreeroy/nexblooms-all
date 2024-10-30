@@ -14,18 +14,23 @@ const RegistrationForm = ({ className = "" }) => {
   const [success, setSuccess] = useState("");
 
   const handleRegister = async (e) => {
+    console.log("hiiiiiTEST")
     e.preventDefault();
     if (password !== confirmPassword) {
       setError("Passwords do not match!");
+      console.log("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee")
       return;
     }
     try {
+      console.log(firstName)
+
       const response = await axios.post("http://127.0.0.1:8000/v1/account/account/web_register/", {
         first_name: firstName,
         last_name: lastName,
-        email,
-        mobile,
-        password,
+        email:email,
+        mobile_number:mobile,
+        password:password,
+        confirm_password:confirmPassword,
 
       },{
         headers: {
@@ -33,6 +38,7 @@ const RegistrationForm = ({ className = "" }) => {
         },
       }
     );
+
       setSuccess("User registered successfully!");
       setError("");
     } catch (error) {
